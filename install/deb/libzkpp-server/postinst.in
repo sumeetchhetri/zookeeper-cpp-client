@@ -1,3 +1,0 @@
-#!/bin/sh -e
-
-update-alternatives --install @CMAKE_INSTALL_PREFIX@/lib/libzkpp-server.so libzkpp-server @CMAKE_INSTALL_PREFIX@/lib/libzkpp-server.so.@PROJECT_SO_VERSION@ 10
